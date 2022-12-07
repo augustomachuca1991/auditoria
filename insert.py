@@ -10,7 +10,7 @@ def transaction():
         cursorInsert.execute(insert, 9, 'Miño Adrian', 'Peru')
         cursorInsert.execute(insert, 10, 'Cristian Galvez', 'Colombia')
         cursorInsert.execute(insert, 11, 'Walter Rollet', 'Canada')
-        print('Successful Insert')
+        print('successful insert')
         cursorInsert.commit()
     except:
         cursorInsert.execute("ROLLBACK")
